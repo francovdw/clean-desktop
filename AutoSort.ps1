@@ -20,7 +20,7 @@ $confirmfolder = Test-Path -PathType Container "$Path\_Other"
 
 ### Extension List ###
 # List of extension that will be moved into folders based on the extension
-$extlist = "*.ps1","*.txt","*.pdf","*.docx","*.doc","*.xlsx","*.xls","*.png","*.jpg","*.csv","*.exe","*.msi","*.zip","*.rar","*.tar","*.log","*.cfg","*.iso","*.rdp","*.mp4","*.mp3","*.wav","*.msg","*.cer","*.deb","*.bat","*.pfx","*.img","*.ini","*.xlsm","*.pptx","*.msu","*.tbxml","*.pcapn"
+$extlist = "*.ps1","*.txt","*.pdf","*.docx","*.doc","*.xlsx","*.xls","*.png","*.jpg","*.csv","*.exe","*.msi","*.zip","*.rar","*.tar","*.log","*.cfg","*.iso","*.rdp","*.mp4","*.mp3","*.wav","*.msg","*.cer","*.deb","*.bat","*.pfx","*.img","*.ini","*.xlsm","*.pptx","*.msu","*.tbxml","*.pcapn","*.drawio"
 
 ### Exclude List ###
 # List of files, folders and shortcuts that will not be moved into the archived folders
