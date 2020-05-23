@@ -24,7 +24,7 @@ $extlist = "*.ps1","*.txt","*.pdf","*.docx","*.doc","*.xlsx","*.xls","*.png","*.
 
 ### Exclude List ###
 # List of files, folders and shortcuts that will not be moved into the archived folders
-$exclude = "AutoSort.ps1","NetAdapter_v1.ps1","PS WorkShop","LPCMID002.ink","PS Online.ps1","PSW","Scripting","YD-v1","Telkom LTE","AutoSort-P.ps1","IPBH"
+$exclude = "AutoSort.ps1","NetAdapter_v1.ps1","PS WorkShop","LPCMID002.ink","PS Online.ps1","PSW","Scripting","YD-v1","Telkom LTE","AutoSort-P.ps1","IPBH","RDG.rdp","Boardroom Bot v2.html","Support","PSOnline.ps1","WIP","CloudShare.ink"
 
 # Create folders based on extension list & Move files from Desktop & Downloads
 foreach($ext in $extlist)
